@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "id": "ecom",
+      "name": "E-commerce Automation",
+      "tools": []
+    },
+    {
+      "id": "crm",
+      "name": "CRM Integration",
+      "tools": []
+    },
+    {
+      "id": "support",
+      "name": "Customer Support Agents",
+      "tools": []
+    },
+    {
+      "id": "fin",
+      "name": "Finance & Accounting",
+      "tools": []
+    }
+  ]
+}

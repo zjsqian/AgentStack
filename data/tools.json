@@ -1,0 +1,60 @@
+{
+  "tools": [
+    {
+      "id": "zapier-central",
+      "name": "Zapier Central",
+      "category": "crm",
+      "description": "Connect AI bots directly to your CRM data without code.",
+      "integration_difficulty": "Low",
+      "affiliate_link": "https://zapier.com/central?ref=agentstack"
+    },
+    {
+      "id": "chatbase-support",
+      "name": "Chatbase",
+      "category": "support",
+      "description": "Custom ChatGPT for your website. Integrates with Zendesk.",
+      "integration_difficulty": "Medium",
+      "affiliate_link": "https://link.chatbase.co/iXIUgvk"
+    },
+    {
+      "id": "make-com",
+      "name": "Make (Integromat)",
+      "category": "automation",
+      "description": "Visual platform to design, build, and automate anything. Connects 1000+ apps.",
+      "integration_difficulty": "Medium",
+      "affiliate_link": "https://www.make.com/en/register?pc=zjs123"
+    },
+    {
+      "id": "gorgias",
+      "name": "Gorgias",
+      "category": "support",
+      "description": "E-commerce helpdesk that turns customer service into a profit center.",
+      "integration_difficulty": "Low",
+      "affiliate_link": "https://gorgias.grsm.io/agentstack"
+    },
+    {
+      "id": "retool",
+      "name": "Retool",
+      "category": "internal",
+      "description": "Build internal tools remarkably fast. Connects to any database or API.",
+      "integration_difficulty": "High",
+      "affiliate_link": "https://retool.com/?ref=agentstack"
+    },
+    {
+      "id": "clay-run",
+      "name": "Clay",
+      "category": "sales",
+      "description": "Automate outbound campaigns and enrich leads combining 50+ data providers.",
+      "integration_difficulty": "Medium",
+      "affiliate_link": "https://clay.com/?via=agentstack"
+    },
+    {
+      "id": "jasper-ai",
+      "name": "Jasper",
+      "category": "marketing",
+      "description": "AI copilot for enterprise marketing teams.",
+      "integration_difficulty": "Low",
+      "affiliate_link": "https://jasper.ai?fpr=agentstack"
+    }
+  ]
+}
