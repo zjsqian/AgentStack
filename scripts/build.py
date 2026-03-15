@@ -3,8 +3,8 @@ import os
 
 def build_site():
     print("Building AgentStack site...")
-    data_path = 'AgentStack/data/tools.json'
-    template_path = 'AgentStack/docs/index.html'
+    data_path = 'data/tools.json'
+    template_path = 'docs/index.html'
     
     if not os.path.exists(data_path):
         print(f"Error: {data_path} not found.")
