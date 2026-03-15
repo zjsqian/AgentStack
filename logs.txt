@@ -113,3 +113,6 @@ Scan complete.
 [2026-03-14T13:00Z] Need help with Shopify-NetSuite inventory sync API | https://github.com/shopify/shopify-api-python/issues/123
 [2026-03-14T13:02Z] Looking for developer to automate invoice parsing | https://github.com/n8n-io/n8n/issues/456
 [2026-03-14T13:05Z] How to connect Make.com to custom internal CRM? | https://community.make.com/t/custom-crm-integration
+[2026-03-14T13:00Z] Need help with Shopify-NetSuite inventory sync API | https://github.com/shopify/shopify-api-python/issues/123
+[2026-03-14T13:02Z] Looking for developer to automate invoice parsing | https://github.com/n8n-io/n8n/issues/456
+[2026-03-14T13:05Z] How to connect Make.com to custom internal CRM? | https://community.make.com/t/custom-crm-integration
