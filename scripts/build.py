@@ -1,10 +1,12 @@
 import json
 import os
+from datetime import datetime
 
 def build_site():
     print("Building AgentStack site...")
     data_path = 'data/tools.json'
     template_path = 'docs/index.html'
+    sitemap_path = 'docs/sitemap.xml'
     
     if not os.path.exists(data_path):
         print(f"Error: {data_path} not found.")
@@ -40,6 +42,23 @@ def build_site():
     with open(template_path, 'w') as f:
         f.write(new_content)
     
+    # Update sitemap date
+    if os.path.exists(sitemap_path):
+        print("Updating sitemap.xml date...")
+        today = datetime.now().strftime("%Y-%m-%d")
+        with open(sitemap_path, 'r') as f:
+            lines = f.readlines()
+        
+        updated_lines = []
+        for line in lines:
+            if "<lastmod>" in line:
+                updated_lines.append(f"    <lastmod>{today}</lastmod>\n")
+            else:
+                updated_lines.append(line)
+        
+        with open(sitemap_path, 'w') as f:
+            f.writelines(updated_lines)
+
     print("Build complete. Output written to AgentStack/docs/index.html")
 
 if __name__ == "__main__":
